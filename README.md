@@ -35,7 +35,7 @@ npm install # or pnpm install or yarn install
 
 When you use this template, follow the checklist to update your info properly
 
-- [ ] Rename `name` and `version` field in `package.json`
+- [ ] Rename `name`, `version` and `author` field in `package.json`
 - [ ] Change the author name in `LICENSE`
 - [ ] Remove the `renovate.json` which contains the renovate config
 - [ ] Clean up the READMEs
