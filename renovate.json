@@ -1,6 +1,5 @@
 {
-  "extends": ["config:base"],
-  "schedule": "before 2am",
+  "extends": ["config:base", ":disableDependencyDashboard", "schedule:daily"],
   "ignorePaths": [],
   "enabledManagers": ["cargo", "npm", "github-actions"],
   "cargo": {
@@ -8,7 +7,8 @@
   },
   "automerge": true,
   "lockFileMaintenance": {
-    "enabled": true
+    "enabled": true,
+    "automerge": true
   },
   "rebaseConflictedPrs": false
 }
