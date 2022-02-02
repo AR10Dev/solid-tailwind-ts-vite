@@ -1,6 +1,6 @@
 {
   "extends": ["config:base"],
-  "schedule": "daily",
+  "schedule": "before 2am",
   "ignorePaths": [],
   "enabledManagers": ["cargo", "npm", "github-actions"],
   "cargo": {
