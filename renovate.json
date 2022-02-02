@@ -6,14 +6,9 @@
   "cargo": {
     "enabled": true
   },
-  "packageRules": [
-    {
-      "enabled": true,
-      "automerge": true,
-      "lockFileMaintenance": {
-        "enabled": true
-      },
-      "rebaseConflictedPrs": false
-    }
-  ]
+  "automerge": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "rebaseConflictedPrs": false
 }
