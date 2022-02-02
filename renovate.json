@@ -1,16 +1,19 @@
 {
-  "separateMajorMinor": false,
-  "extends": [
-    ":preserveSemverRanges",
-    "group:all",
-    "schedule:daily",
-    ":maintainLockFilesMonthly"
-  ],
-  "lockFileMaintenance": {
-    "extends": [
-      "group:all"
-    ],
-    "commitMessageAction": "Update",
-    "automerge": true
-  }
+  "extends": ["config:base"],
+  "schedule": "daily",
+  "ignorePaths": [],
+  "enabledManagers": ["cargo", "npm", "github-actions"],
+  "cargo": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "enabled": true,
+      "automerge": true,
+      "lockFileMaintenance": {
+        "enabled": true
+      },
+      "rebaseConflictedPrs": false
+    }
+  ]
 }
