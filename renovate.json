@@ -1,10 +1,7 @@
 {
   "extends": ["config:base", ":disableDependencyDashboard", "schedule:daily"],
   "ignorePaths": [],
-  "enabledManagers": ["cargo", "npm", "github-actions"],
-  "cargo": {
-    "enabled": true
-  },
+  "enabledManagers": ["npm", "github-actions"],
   "automerge": true,
   "lockFileMaintenance": {
     "enabled": true,
