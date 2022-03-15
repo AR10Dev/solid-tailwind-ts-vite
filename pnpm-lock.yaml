@@ -5,7 +5,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.12.1
   '@typescript-eslint/parser': 5.12.1
   autoprefixer: 10.4.2
-  cssnano: 5.0.17
+  cssnano: 5.1.4
   eslint: 8.11.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-prettier: 4.0.0
@@ -25,7 +25,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.12.1_25d62846ab9725500b11cab6c6e0c004
   '@typescript-eslint/parser': 5.12.1_eslint@8.11.0+typescript@4.5.5
   autoprefixer: 10.4.2_postcss@8.4.8
-  cssnano: 5.0.17_postcss@8.4.8
+  cssnano: 5.1.4_postcss@8.4.8
   eslint: 8.11.0
   eslint-config-prettier: 8.5.0_eslint@8.11.0
   eslint-plugin-prettier: 4.0.0_c9d5adccfd1d43a8805a302169f6a967
@@ -898,8 +898,8 @@ packages:
       postcss: 8.4.8
     dev: true
 
-  /cssnano/5.0.17_postcss@8.4.8:
-    resolution: {integrity: sha512-fmjLP7k8kL18xSspeXTzRhaFtRI7DL9b8IcXR80JgtnWBpvAzHT7sCR/6qdn0tnxIaINUN6OEQu83wF57Gs3Xw==}
+  /cssnano/5.1.4_postcss@8.4.8:
+    resolution: {integrity: sha512-hbfhVZreEPyzl+NbvRsjNo54JOX80b+j6nqG2biLVLaZHJEiqGyMh4xDGHtwhUKd5p59mj2GlDqlUBwJUuIu5A==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
