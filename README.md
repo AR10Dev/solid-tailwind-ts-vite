@@ -1,17 +1,17 @@
-# [Solid](https://solidjs.com) + [Tailwind CSS](https://tailwindcss.com/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/) Starter
+# [Solid](https://solidjs.com) + [Tailwind CSS](https://tailwindcss.com) + [TypeScript](https://www.typescriptlang.org) + [Vite](https://vitejs.dev) Starter
 
-A starter template for Solid that comes preconfigured with [Vite](https://vitejs.dev/),
-[TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/), [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) and HMR.
+A starter template for Solid that comes preconfigured with [Vite](https://vitejs.dev),
+[TypeScript](https://www.typescriptlang.org), [Tailwind CSS](https://tailwindcss.com), [ESLint](https://eslint.org), [Prettier](https://prettier.io) and HMR.
 
 ## Features
 
-- ⚡️ [Solid](https://solidjs.com) & [Vite](https://github.com/vitejs/vite) - Easy win in performance.
+- ⚡️ [Solid](https://solidjs.com) & [Vite](https://vitejs.dev) - Simple and performant reactivity for building user interfaces.
 
-- 🎨 [Tailwind CSS](https://github.com/windicss/windicss) - A utility-first CSS framework for rapid UI development.
+- 🎨 [Tailwind CSS](https://tailwindcss.com) - A utility-first CSS framework for rapid UI development.
 
-- 💪 [TypeScript](https://www.typescriptlang.org/) - it's JavaScript with syntax for types so it have superpowers 🚀
+- 💪 [TypeScript](https://www.typescriptlang.org) - it's JavaScript with syntax for types.
 
-- 👌 [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) - ESLint find problems in your code and Prettier format your code for an easy life.
+- 👌 [ESLint](https://eslint.org) + [Prettier](https://prettier.io) - ESLint find problems in your code and Prettier format your code for an easy life.
 
 <br>
 
@@ -37,8 +37,8 @@ When you use this template, follow the checklist to update your info properly
 
 - [ ] Rename `name`, `version` and `author` field in `package.json`
 - [ ] Change the author name in `LICENSE`
-- [ ] Remove the `renovate.json` which contains the renovate config
 - [ ] Clean up the READMEs
+- [ ] Optional: Remove the `.github` folder which contains the github actions and the renovate config
 - [ ] Enjoy 😉
 
 ## Usage
@@ -46,18 +46,18 @@ When you use this template, follow the checklist to update your info properly
 ### Development
 
 ```bash
-npm run dev
+npm run dev # or pnpm dev or yarn dev
 ```
 
 Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-The page will reload if you make edits.<br>
+The page will reload automatically if you make edits.<br>
 
 ### Build
 
 ```bash
-npm run build
+npm run build # or pnpm build or yarn build
 ```
 
 Builds the app for production to the `dist` folder.<br>
@@ -76,5 +76,7 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 The following list provides maintained templates variations with different preferences and feature sets.
 
 - [**solid-tailwind-ts-vite-router**](https://github.com/AR10Dev/solid-tailwind-ts-vite-router) - Based on this template but add support to file-system based routing
+
+- [**tauri-solid-ts-tailwind-vite**](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite) - Based on [solid-tailwind-ts-vite-router](https://github.com/AR10Dev/solid-tailwind-ts-vite-router) template, it offers the integration with Tauri
 
 - [solidjs/templates](https://github.com/solidjs/templates) - Solid templates created by Solid Team
