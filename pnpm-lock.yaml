@@ -46,11 +46,11 @@ devDependencies:
     specifier: 5.0.4
     version: 5.0.4
   vite:
-    specifier: 4.3.1
-    version: 4.3.1(@types/node@18.16.0)
+    specifier: 4.3.2
+    version: 4.3.2(@types/node@18.16.0)
   vite-plugin-solid:
     specifier: 2.7.0
-    version: 2.7.0(solid-js@1.7.3)(vite@4.3.1)
+    version: 2.7.0(solid-js@1.7.3)(vite@4.3.2)
 
 packages:
 
@@ -2452,8 +2452,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup@3.20.6:
-    resolution: {integrity: sha512-2yEB3nQXp/tBQDN0hJScJQheXdvU2wFhh6ld7K/aiZ1vYcak6N/BKjY1QrU6BvO2JWYS8bEs14FRaxXosxy2zw==}
+  /rollup@3.21.0:
+    resolution: {integrity: sha512-ANPhVcyeHvYdQMUyCbczy33nbLzI7RzrBje4uvNiTDJGIMtlKoOStmympwr9OtS1LZxiDmE2wvxHyVhoLtf1KQ==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -2719,7 +2719,7 @@ packages:
     resolution: {integrity: sha512-T1ab131NkP3BfXB7KUSgV7Rhu81R2id+L6NaJ7NypAAG5iV6gXnPpQE5RK1fvb+3JYsPTL+ihWna5sr5RN9gaQ==}
     dev: true
 
-  /vite-plugin-solid@2.7.0(solid-js@1.7.3)(vite@4.3.1):
+  /vite-plugin-solid@2.7.0(solid-js@1.7.3)(vite@4.3.2):
     resolution: {integrity: sha512-avp/Jl5zOp/Itfo67xtDB2O61U7idviaIp4mLsjhCa13PjKNasz+IID0jYTyqUp9SFx6/PmBr6v4KgDppqompg==}
     peerDependencies:
       solid-js: ^1.7.2
@@ -2732,14 +2732,14 @@ packages:
       merge-anything: 5.1.4
       solid-js: 1.7.3
       solid-refresh: 0.5.0(solid-js@1.7.3)
-      vite: 4.3.1(@types/node@18.16.0)
-      vitefu: 0.2.3(vite@4.3.1)
+      vite: 4.3.2(@types/node@18.16.0)
+      vitefu: 0.2.3(vite@4.3.2)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.3.1(@types/node@18.16.0):
-    resolution: {integrity: sha512-EPmfPLAI79Z/RofuMvkIS0Yr091T2ReUoXQqc5ppBX/sjFRhHKiPPF/R46cTdoci/XgeQpB23diiJxq5w30vdg==}
+  /vite@4.3.2(@types/node@18.16.0):
+    resolution: {integrity: sha512-9R53Mf+TBoXCYejcL+qFbZde+eZveQLDYd9XgULILLC1a5ZwPaqgmdVpL8/uvw2BM/1TzetWjglwm+3RO+xTyw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2766,12 +2766,12 @@ packages:
       '@types/node': 18.16.0
       esbuild: 0.17.11
       postcss: 8.4.23
-      rollup: 3.20.6
+      rollup: 3.21.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu@0.2.3(vite@4.3.1):
+  /vitefu@0.2.3(vite@4.3.2):
     resolution: {integrity: sha512-75l7TTuU8isAhz1QFtNKjDkqjxvndfMC1AfIMjJ0ZQ59ZD0Ow9QOIsJJX16Wv9PS8f+zMzp6fHy5cCbKG/yVUQ==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -2779,7 +2779,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.3.1(@types/node@18.16.0)
+      vite: 4.3.2(@types/node@18.16.0)
     dev: true
 
   /which@2.0.2:
