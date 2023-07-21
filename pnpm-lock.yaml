@@ -50,11 +50,11 @@ devDependencies:
     specifier: 5.1.6
     version: 5.1.6
   vite:
-    specifier: 4.4.5
-    version: 4.4.5(@types/node@18.16.19)
+    specifier: 4.4.6
+    version: 4.4.6(@types/node@18.16.19)
   vite-plugin-solid:
     specifier: 2.7.0
-    version: 2.7.0(solid-js@1.7.8)(vite@4.4.5)
+    version: 2.7.0(solid-js@1.7.8)(vite@4.4.6)
 
 packages:
 
@@ -2719,7 +2719,7 @@ packages:
     resolution: {integrity: sha512-T1ab131NkP3BfXB7KUSgV7Rhu81R2id+L6NaJ7NypAAG5iV6gXnPpQE5RK1fvb+3JYsPTL+ihWna5sr5RN9gaQ==}
     dev: true
 
-  /vite-plugin-solid@2.7.0(solid-js@1.7.8)(vite@4.4.5):
+  /vite-plugin-solid@2.7.0(solid-js@1.7.8)(vite@4.4.6):
     resolution: {integrity: sha512-avp/Jl5zOp/Itfo67xtDB2O61U7idviaIp4mLsjhCa13PjKNasz+IID0jYTyqUp9SFx6/PmBr6v4KgDppqompg==}
     peerDependencies:
       solid-js: ^1.7.2
@@ -2732,14 +2732,14 @@ packages:
       merge-anything: 5.1.4
       solid-js: 1.7.8
       solid-refresh: 0.5.0(solid-js@1.7.8)
-      vite: 4.4.5(@types/node@18.16.19)
-      vitefu: 0.2.3(vite@4.4.5)
+      vite: 4.4.6(@types/node@18.16.19)
+      vitefu: 0.2.3(vite@4.4.6)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.4.5(@types/node@18.16.19):
-    resolution: {integrity: sha512-4m5kEtAWHYr0O1Fu7rZp64CfO1PsRGZlD3TAB32UmQlpd7qg15VF7ROqGN5CyqN7HFuwr7ICNM2+fDWRqFEKaA==}
+  /vite@4.4.6(@types/node@18.16.19):
+    resolution: {integrity: sha512-EY6Mm8vJ++S3D4tNAckaZfw3JwG3wa794Vt70M6cNJ6NxT87yhq7EC8Rcap3ahyHdo8AhCmV9PTk+vG1HiYn1A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2774,7 +2774,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu@0.2.3(vite@4.4.5):
+  /vitefu@0.2.3(vite@4.4.6):
     resolution: {integrity: sha512-75l7TTuU8isAhz1QFtNKjDkqjxvndfMC1AfIMjJ0ZQ59ZD0Ow9QOIsJJX16Wv9PS8f+zMzp6fHy5cCbKG/yVUQ==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -2782,7 +2782,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.5(@types/node@18.16.19)
+      vite: 4.4.6(@types/node@18.16.19)
     dev: true
 
   /which@2.0.2:
