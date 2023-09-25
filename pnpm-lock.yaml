@@ -11,8 +11,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 18.17.19
-    version: 18.17.19
+    specifier: 18.18.0
+    version: 18.18.0
   '@typescript-eslint/eslint-plugin':
     specifier: 5.62.0
     version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.50.0)(typescript@5.2.2)
@@ -51,7 +51,7 @@ devDependencies:
     version: 5.2.2
   vite:
     specifier: 4.4.9
-    version: 4.4.9(@types/node@18.17.19)
+    version: 4.4.9(@types/node@18.18.0)
   vite-plugin-solid:
     specifier: 2.7.0
     version: 2.7.0(solid-js@1.7.12)(vite@4.4.9)
@@ -732,8 +732,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node@18.17.19:
-    resolution: {integrity: sha512-+pMhShR3Or5GR0/sp4Da7FnhVmTalWm81M6MkEldbwjETSaPalw138Z4KdpQaistvqQxLB7Cy4xwYdxpbSOs9Q==}
+  /@types/node@18.18.0:
+    resolution: {integrity: sha512-3xA4X31gHT1F1l38ATDIL9GpRLdwVhnEFC8Uikv5ZLlXATwrCYyPq7ZWHxzxc3J/30SUiwiYT+bQe0/XvKlWbw==}
     dev: true
 
   /@types/semver@7.3.12:
@@ -2741,13 +2741,13 @@ packages:
       merge-anything: 5.1.4
       solid-js: 1.7.12
       solid-refresh: 0.5.0(solid-js@1.7.12)
-      vite: 4.4.9(@types/node@18.17.19)
+      vite: 4.4.9(@types/node@18.18.0)
       vitefu: 0.2.3(vite@4.4.9)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.4.9(@types/node@18.17.19):
+  /vite@4.4.9(@types/node@18.18.0):
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2775,7 +2775,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.17.19
+      '@types/node': 18.18.0
       esbuild: 0.18.11
       postcss: 8.4.30
       rollup: 3.27.2
@@ -2791,7 +2791,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.9(@types/node@18.17.19)
+      vite: 4.4.9(@types/node@18.18.0)
     dev: true
 
   /which@2.0.2:
