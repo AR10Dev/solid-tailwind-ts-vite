@@ -50,11 +50,11 @@ devDependencies:
     specifier: 5.2.2
     version: 5.2.2
   vite:
-    specifier: 4.4.10
-    version: 4.4.10(@types/node@18.18.3)
+    specifier: 4.4.11
+    version: 4.4.11(@types/node@18.18.3)
   vite-plugin-solid:
     specifier: 2.7.0
-    version: 2.7.0(solid-js@1.7.12)(vite@4.4.10)
+    version: 2.7.0(solid-js@1.7.12)(vite@4.4.11)
 
 packages:
 
@@ -2728,7 +2728,7 @@ packages:
     resolution: {integrity: sha512-T1ab131NkP3BfXB7KUSgV7Rhu81R2id+L6NaJ7NypAAG5iV6gXnPpQE5RK1fvb+3JYsPTL+ihWna5sr5RN9gaQ==}
     dev: true
 
-  /vite-plugin-solid@2.7.0(solid-js@1.7.12)(vite@4.4.10):
+  /vite-plugin-solid@2.7.0(solid-js@1.7.12)(vite@4.4.11):
     resolution: {integrity: sha512-avp/Jl5zOp/Itfo67xtDB2O61U7idviaIp4mLsjhCa13PjKNasz+IID0jYTyqUp9SFx6/PmBr6v4KgDppqompg==}
     peerDependencies:
       solid-js: ^1.7.2
@@ -2741,14 +2741,14 @@ packages:
       merge-anything: 5.1.4
       solid-js: 1.7.12
       solid-refresh: 0.5.0(solid-js@1.7.12)
-      vite: 4.4.10(@types/node@18.18.3)
-      vitefu: 0.2.3(vite@4.4.10)
+      vite: 4.4.11(@types/node@18.18.3)
+      vitefu: 0.2.3(vite@4.4.11)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.4.10(@types/node@18.18.3):
-    resolution: {integrity: sha512-TzIjiqx9BEXF8yzYdF2NTf1kFFbjMjUSV0LFZ3HyHoI3SGSPLnnFUKiIQtL3gl2AjHvMrprOvQ3amzaHgQlAxw==}
+  /vite@4.4.11(@types/node@18.18.3):
+    resolution: {integrity: sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2783,7 +2783,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu@0.2.3(vite@4.4.10):
+  /vitefu@0.2.3(vite@4.4.11):
     resolution: {integrity: sha512-75l7TTuU8isAhz1QFtNKjDkqjxvndfMC1AfIMjJ0ZQ59ZD0Ow9QOIsJJX16Wv9PS8f+zMzp6fHy5cCbKG/yVUQ==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -2791,7 +2791,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.10(@types/node@18.18.3)
+      vite: 4.4.11(@types/node@18.18.3)
     dev: true
 
   /which@2.0.2:
