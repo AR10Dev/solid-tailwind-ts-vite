@@ -28,6 +28,6 @@
     "vite-plugin-solid": "2.7.2"
   },
   "dependencies": {
-    "solid-js": "1.8.3"
+    "solid-js": "1.8.4"
   }
 }
