@@ -26,8 +26,8 @@ devDependencies:
     specifier: 6.1.2
     version: 6.1.2(postcss@8.4.38)
   cssnano-preset-advanced:
-    specifier: 6.1.1
-    version: 6.1.1(postcss@8.4.38)
+    specifier: 6.1.2
+    version: 6.1.2(postcss@8.4.38)
   eslint:
     specifier: 8.57.0
     version: 8.57.0
@@ -1040,15 +1040,6 @@ packages:
       which: 2.0.2
     dev: true
 
-  /css-declaration-sorter@7.1.1(postcss@8.4.38):
-    resolution: {integrity: sha512-dZ3bVTEEc1vxr3Bek9vGwfB5Z6ESPULhcRvO472mfjVnj8jRcTnKO8/JTczlvxM10Myb+wBM++1MtdO76eWcaQ==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      postcss: ^8.0.9
-    dependencies:
-      postcss: 8.4.38
-    dev: true
-
   /css-declaration-sorter@7.2.0(postcss@8.4.38):
     resolution: {integrity: sha512-h70rUM+3PNFuaBDTLe8wF/cdWu+dOZmb7pJt8Z2sedYbAcQVQV/tEchueg3GWxwqS0cxtbxmaHEdkNACqcvsow==}
     engines: {node: ^14 || ^16 || >=18}
@@ -1095,59 +1086,20 @@ packages:
     hasBin: true
     dev: true
 
-  /cssnano-preset-advanced@6.1.1(postcss@8.4.38):
-    resolution: {integrity: sha512-RqF44CbyYpfmji1EItEsmMMTmuFjm+NcYX5Uph269tgi7FAgfSyP6MHUcc/NSV6tC+1rTFQLItbSA4dxQxTrTQ==}
+  /cssnano-preset-advanced@6.1.2(postcss@8.4.38):
+    resolution: {integrity: sha512-Nhao7eD8ph2DoHolEzQs5CfRpiEP0xa1HBdnFZ82kvqdmbwVBUr2r1QuQ4t1pi+D1ZpqpcO4T+wy/7RxzJ/WPQ==}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
       autoprefixer: 10.4.19(postcss@8.4.38)
       browserslist: 4.23.0
-      cssnano-preset-default: 6.1.1(postcss@8.4.38)
+      cssnano-preset-default: 6.1.2(postcss@8.4.38)
       postcss: 8.4.38
       postcss-discard-unused: 6.0.5(postcss@8.4.38)
       postcss-merge-idents: 6.0.3(postcss@8.4.38)
       postcss-reduce-idents: 6.0.3(postcss@8.4.38)
       postcss-zindex: 6.0.2(postcss@8.4.38)
-    dev: true
-
-  /cssnano-preset-default@6.1.1(postcss@8.4.38):
-    resolution: {integrity: sha512-XW/dYN2p8Jdkp1lovFd0UVRh6RB0iMyXJbAE9Qm+taR3p2LGu492AW34lVaukUrXoK9IxK5aK3CUmFpUorU4oA==}
-    engines: {node: ^14 || ^16 || >=18.0}
-    peerDependencies:
-      postcss: ^8.4.31
-    dependencies:
-      browserslist: 4.23.0
-      css-declaration-sorter: 7.1.1(postcss@8.4.38)
-      cssnano-utils: 4.0.2(postcss@8.4.38)
-      postcss: 8.4.38
-      postcss-calc: 9.0.1(postcss@8.4.38)
-      postcss-colormin: 6.1.0(postcss@8.4.38)
-      postcss-convert-values: 6.1.0(postcss@8.4.38)
-      postcss-discard-comments: 6.0.2(postcss@8.4.38)
-      postcss-discard-duplicates: 6.0.3(postcss@8.4.38)
-      postcss-discard-empty: 6.0.3(postcss@8.4.38)
-      postcss-discard-overridden: 6.0.2(postcss@8.4.38)
-      postcss-merge-longhand: 6.0.5(postcss@8.4.38)
-      postcss-merge-rules: 6.1.1(postcss@8.4.38)
-      postcss-minify-font-values: 6.1.0(postcss@8.4.38)
-      postcss-minify-gradients: 6.0.3(postcss@8.4.38)
-      postcss-minify-params: 6.1.0(postcss@8.4.38)
-      postcss-minify-selectors: 6.0.4(postcss@8.4.38)
-      postcss-normalize-charset: 6.0.2(postcss@8.4.38)
-      postcss-normalize-display-values: 6.0.2(postcss@8.4.38)
-      postcss-normalize-positions: 6.0.2(postcss@8.4.38)
-      postcss-normalize-repeat-style: 6.0.2(postcss@8.4.38)
-      postcss-normalize-string: 6.0.2(postcss@8.4.38)
-      postcss-normalize-timing-functions: 6.0.2(postcss@8.4.38)
-      postcss-normalize-unicode: 6.1.0(postcss@8.4.38)
-      postcss-normalize-url: 6.0.2(postcss@8.4.38)
-      postcss-normalize-whitespace: 6.0.2(postcss@8.4.38)
-      postcss-ordered-values: 6.0.2(postcss@8.4.38)
-      postcss-reduce-initial: 6.1.0(postcss@8.4.38)
-      postcss-reduce-transforms: 6.0.2(postcss@8.4.38)
-      postcss-svgo: 6.0.3(postcss@8.4.38)
-      postcss-unique-selectors: 6.0.4(postcss@8.4.38)
     dev: true
 
   /cssnano-preset-default@6.1.2(postcss@8.4.38):
