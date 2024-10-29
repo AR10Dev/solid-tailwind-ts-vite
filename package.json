@@ -14,7 +14,7 @@
     "@types/node": "18.19.60",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
-    "autoprefixer": "10.4.19",
+    "autoprefixer": "10.4.20",
     "cssnano": "6.1.2",
     "cssnano-preset-advanced": "6.1.2",
     "eslint": "8.57.0",
