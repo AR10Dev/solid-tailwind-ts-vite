@@ -14,7 +14,7 @@
         "eslint": "9.39.4",
         "eslint-config-prettier": "10.1.8",
         "lightningcss": "1.32.0",
-        "prettier": "3.9.1",
+        "prettier": "3.9.4",
         "prettier-eslint-cli": "9.2.1",
         "prettier-plugin-tailwindcss": "0.8.0",
         "tailwindcss": "4.3.2",
@@ -436,7 +436,7 @@
 
     "prelude-ls": ["prelude-ls@1.2.1", "", {}, "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g=="],
 
-    "prettier": ["prettier@3.9.1", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-ppiDo2CSwexck1eyZUwJHg/N3nf1+6IRCv7W/VJ5vaLnVCmB7+3CdRfMwoCHBBX6xTrREDTksZ4OZl5SSf4zXA=="],
+    "prettier": ["prettier@3.9.4", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-yWG/o/4oJfo036EKAfK6ACAoDOfHeRHx4tuxkfBZiauURiaSmYwlpOr5LQqKtIkRD2z1PLteme2WoxEnj4tHTg=="],
 
     "prettier-eslint-cli": ["prettier-eslint-cli@9.2.1", "", { "dependencies": { "@eslint/config-array": "^0.23.5", "@humanfs/node": "^0.16.8", "@prettier/eslint": "npm:prettier-eslint@^17.1.0", "chalk": "^5.6.2", "common-tags": "^1.8.2", "eslint": "^10.5.0", "find-up": "^8.0.0", "glob-parent": "^6.0.0", "ignore": "^7.0.5", "indent-string": "^5.0.0", "loglevel": "^1.9.2", "loglevel-colored-level-prefix": "^1.0.0", "minimatch": "^10.2.5", "yargs": "^18.0.0" }, "peerDependencies": { "prettier-eslint": ">=17.0.1" }, "optionalPeers": ["prettier-eslint"], "bin": { "prettier-eslint": "dist/index.js" } }, "sha512-JbkgW/MNDpKdHXzxGJunE1y5pX2iQRQP2OZJjL+H7v7E4dGndG2AN1cW05JgW4pg/SgS0MVaKjujvjLy5pXcug=="],
 
