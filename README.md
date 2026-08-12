@@ -66,6 +66,15 @@ It correctly bundles Solid in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
+### Preview
+
+```bash
+npm run preview # or pnpm preview or yarn preview
+```
+
+Locally preview production build.<br>
+Open [http://localhost:4173](http://localhost:4173) to view it in the browser.
+
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
