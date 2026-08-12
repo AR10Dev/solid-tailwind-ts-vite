@@ -1,5 +1,3 @@
-
-
 # [Solid](https://solidjs.com) + [Tailwind CSS](https://tailwindcss.com) + [TypeScript](https://www.typescriptlang.org) + [Vite](https://vitejs.dev) Starter
 
 A starter template for Solid that comes preconfigured with [Vite](https://vitejs.dev),
